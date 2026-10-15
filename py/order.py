@@ -36,7 +36,7 @@ def on_order_submit(event):
 
     _, _, total = compute_totals()
     orders["count"] += 1
-    order_no = f'BB-{orders["count"]:03d}'
+    order_no = f'DB-{orders["count"]:03d}'
     count = sum(cart.values())
 
     msg.className = "msg ok"
