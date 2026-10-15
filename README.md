@@ -40,6 +40,12 @@ assets/           photos, hero illustration, Ad video
 | 4 | Alexa Mae Paras | `status.py`, hero, story, visit, Ad video, footer, `home.css` |
 | 5 | Aizel Clark Cañete | `feedback.py`, feedback section, `feedback.css`, testing |
 
+## Try it online
+
+No setup needed. Just click the link:
+
+**https://mrlasagna738.github.io/EVD-FINALS-SECTION-5/**
+
 ## Run it locally
 
 PyScript needs a web server (opening the file directly will not work).
