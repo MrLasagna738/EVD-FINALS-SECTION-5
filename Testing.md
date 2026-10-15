@@ -7,9 +7,9 @@ Browser / device: (e.g. Chrome on Windows)
 |---|-----------------|-----|----------|--------|
 | 1 | Menu category filter | Click each chip (e.g. Hot, Iced, Pastries) | Only that category shows | Pass |
 | 2 | Menu search | Type "latte" in the search box | Cards filter live as you type | Pass |
-| 3 | Add to order | Click "Add to order" on an item | Item appears in the cart | Pass / Fail |
-| 4 | Quantity buttons | Press + and - in the cart | Quantity and total change; item removed at 0 | Pass / Fail |
-| 5 | First-order discount | Tick "This is my first order" | 10% discount shown, total drops | Pass / Fail |
+| 3 | Add to order | Click "Add to order" on an item | Item appears in the cart | Pass |
+| 4 | Quantity buttons | Press + and - in the cart | Quantity and total change; item removed at 0 | Pass |
+| 5 | First-order discount | Tick "This is my first order" | 10% discount shown, total drops | Pass |
 | 6 | Place order (empty cart) | Click Place order with no items | Red "order is empty" message | Pass / Fail |
 | 7 | Place order (no name) | Add item, leave name blank, submit | Red "enter your name" message | Pass / Fail |
 | 8 | Place order (valid) | Add item, enter name, submit | Green message with DB-001, cart clears | Pass / Fail |
