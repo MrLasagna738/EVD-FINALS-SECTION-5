@@ -1,0 +1,18 @@
+/* Member 5 - feedback: stars, comment box, counter */
+.feedback form { max-width: 560px; }
+.feedback .label { margin: 0 0 .3rem; font-weight: 400; }
+.stars { display: flex; gap: .2rem; margin-bottom: .6rem; }
+.star {
+  background: none; border: 0; padding: 0 .1rem; cursor: pointer;
+  font-size: 2.3rem; line-height: 1; color: #cdb68a;
+  transition: color .2s ease, transform .15s ease;
+}
+.star:hover { transform: scale(1.15); }
+.star.on { color: #d19a2e; }
+.feedback textarea {
+  width: 100%; font: inherit; padding: .55rem .8rem; resize: vertical;
+  border: 2px solid var(--tan); border-radius: var(--radius); background: #fbf3e0; color: var(--ink);
+}
+.count { margin: .2rem 0 0; text-align: right; font-size: .9rem; }
+.count.near { color: #8d2b1b; font-weight: 400; }
+@media (prefers-reduced-motion: reduce) { .star { transition: none; } }
