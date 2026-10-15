@@ -5,3 +5,4 @@
 "./py/cart.py" = "./cart.py"
 "./py/order.py" = "./order.py"
 "./py/status.py" = "./status.py"
+"./py/feedback.py" = "./feedback.py"
