@@ -74,6 +74,24 @@ def render_menu(animate=False, force=False):
     grid.innerHTML = "".join(cards)
 
 
+@when("click", "#filters")
+def on_filter_click(event):
+    chip = event.target.closest(".chip")
+    if chip is None:
+        return
+    state["cat"] = chip.getAttribute("data-cat")
+    for c in document.querySelectorAll(".chip"):
+        active = c.getAttribute("data-cat") == state["cat"]
+        c.classList.toggle("on", active)
+        c.setAttribute("aria-pressed", "true" if active else "false")
+    render_menu(True, force=True)
+
+
+@when("input", "#search")
+def on_search_input(event):
+    state["q"] = event.target.value.strip().lower()
+    render_menu(True)
+
 
 def init():
     render_menu()
