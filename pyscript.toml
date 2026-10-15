@@ -1,0 +1,4 @@
+# Tells PyScript which Python files to load (they are imported by main.py).
+[files]
+"./py/data.py" = "./data.py"
+"./py/menu.py" = "./menu.py"
