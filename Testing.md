@@ -15,10 +15,10 @@ Browser / device: (e.g. Chrome on Windows)
 | 8 | Place order (valid) | Add item, enter name, submit | Green message with DB-001, cart clears | Pass |
 | 9 | Star rating | Click 1 to 5 stars | Stars fill, label shows rating | Pass |
 | 10 | Comment counter | Type in the comment box | Counter updates, turns red near 200 | Pass |
-| 11 | Feedback (no rating) | Submit without stars | Red "choose a star rating" message | Pass / Fail |
+| 11 | Feedback (no rating) | Submit without stars | Red "choose a star rating" message | Pass |
 | 12 | Feedback (valid) | Pick stars, submit | Thank-you message, form resets | Pass |
-| 13 | Open/closed status | Look at the hero | Shows open or closed for Philippine time | Pass / Fail |
-| 14 | Phone width | Resize the window narrow (or use F12 device mode) | Layout stacks, nothing cut off | Pass / Fail |
+| 13 | Open/closed status | Look at the hero | Shows open or closed for Philippine time | Pass |
+| 14 | Phone width | Resize the window narrow (or use F12 device mode) | Layout stacks, nothing cut off | Pass |
 
 ## Problems found
 - None
