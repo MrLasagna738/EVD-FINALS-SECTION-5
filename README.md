@@ -35,9 +35,9 @@ assets/           photos, hero illustration, Ad video
 | Member | Name | Part |
 |--------|------|------|
 | 1 (lead) | Simone Kristopher Baguio | Project setup, `data.py`, `menu.py`, `main.py`, menu section, top bar, base + menu CSS |
-| 2 | John Michael Nuñal | `cart.py`, cart section, Ad video, `cart.css` |
+| 2 | John Michael Nuñal | `cart.py`, cart section, Ad video Editor, `cart.css` |
 | 3 | Precious Shiloh Antig | `order.py`, order form, promo banner, `order.css` |
-| 4 | Alexa Mae Paras | `status.py`, hero, story, visit, footer, `home.css` |
+| 4 | Alexa Mae Paras | `status.py`, hero, story, visit, Ad video, footer, `home.css` |
 | 5 | Aizel Clark Cañete | `feedback.py`, feedback section, `feedback.css`, testing |
 
 ## Run it locally
