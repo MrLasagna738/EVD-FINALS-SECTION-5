@@ -75,7 +75,25 @@
           </dl>
         </div>
 
-      <!-- ===== MEMBER 3: order form goes here ===== -->
+    <!-- ===== MEMBER 3: order form ===== -->
+      <form id="order-form" novalidate>
+        <label for="cust-name">Your name</label>
+        <input id="cust-name" type="text" placeholder="e.g. Maria" autocomplete="name">
+
+        <label for="pickup">How will you enjoy it?</label>
+        <select id="pickup">
+          <option>Dine in</option>
+          <option>Take out</option>
+        </select>
+
+        <label class="check">
+          <input id="first-order" type="checkbox">
+          <span>This is my first order (10% off)</span>
+        </label>
+
+        <button type="submit" class="primary">Place order</button>
+        <p id="order-msg" class="msg" role="status"></p>
+      </form>
         
       </div>
     </section>
