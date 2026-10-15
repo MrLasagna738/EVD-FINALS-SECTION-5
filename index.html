@@ -143,7 +143,21 @@
     <p class="sip">Sip. Relax. Enjoy.</p>
   </section>
 
-  <!-- ===== MEMBER 5: feedback goes here ===== -->
+  <!-- ===== MEMBER 5: feedback ===== -->
+  <section id="feedback" class="block feedback">
+    <h2>Tell us how we did</h2>
+    <form id="feedback-form" novalidate>
+      <p id="rating-label" class="label">Your rating</p>
+      <div id="stars" class="stars" role="group" aria-labelledby="rating-label">
+        <button type="button" class="star" data-value="1" aria-label="1 star" aria-pressed="false">&#9733;</button><button type="button" class="star" data-value="2" aria-label="2 stars" aria-pressed="false">&#9733;</button><button type="button" class="star" data-value="3" aria-label="3 stars" aria-pressed="false">&#9733;</button><button type="button" class="star" data-value="4" aria-label="4 stars" aria-pressed="false">&#9733;</button><button type="button" class="star" data-value="5" aria-label="5 stars" aria-pressed="false">&#9733;</button>
+      </div>
+      <label for="fb-text">Your comment (optional)</label>
+      <textarea id="fb-text" maxlength="200" rows="4" placeholder="What did you enjoy?"></textarea>
+      <p id="fb-count" class="count">0 / 200</p>
+      <button type="submit" class="primary">Send feedback</button>
+      <p id="fb-msg" class="msg" role="status"></p>
+    </form>
+  </section>
 
   <!-- ===== MEMBER 4: visit ===== -->
   <section id="visit" class="block visit">
