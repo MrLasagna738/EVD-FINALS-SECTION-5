@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Brew | A Taste of the Highlands</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="css/order.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/feedback.css">
+  <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+</head>
+<body>
+
+<!-- ===== MEMBER 1: top bar and navigation ===== -->
+<header class="topbar">
+  <a class="brand" href="#top">Daily Brew</a>
+  <nav aria-label="Main">
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+    <a href="#story">Our story</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#visit">Visit</a>
+  </nav>
+  <a class="cart-link" href="#order">Your order <span id="cart-count">0</span></a>
+</header>
+
+<main id="top">
+  <!-- ===== MEMBER 4: hero goes here ===== -->
+
+  <!-- ===== MEMBER 3: promo banner goes here ===== -->
+
+  <!-- ===== MEMBER 4: brand video goes here ===== -->
+
+  <!-- ===== MEMBER 1: menu ===== -->
+  <section id="menu" class="block">
+    <h2>Menu</h2>
+    <p class="lede">Pick a category or type to search. Choose a size for drinks, then add to your order.</p>
+
+    <div class="tools">
+      <div id="filters" class="chips" role="group" aria-label="Menu categories">
+        <button class="chip on" data-cat="all" aria-pressed="true">All</button>
+        <button class="chip" data-cat="hot" aria-pressed="false">Hot coffee</button>
+        <button class="chip" data-cat="iced" aria-pressed="false">Iced drinks</button>
+        <button class="chip" data-cat="pastry" aria-pressed="false">Pastries</button>
+        <button class="chip" data-cat="dessert" aria-pressed="false">Desserts</button>
+      </div>
+      <label class="search">
+        <span class="sr">Search the menu</span>
+        <input id="search" type="search" placeholder="Search, e.g. latte" autocomplete="off">
+      </label>
+    </div>
+
+    <div id="menu-grid" class="grid" aria-live="polite"></div>
+  </section>
+
+  <!-- ===== MEMBER 2 and 3: order section (cart + order form) goes here ===== -->
+
+  <!-- ===== MEMBER 4: story goes here ===== -->
+
+  <!-- ===== MEMBER 5: feedback goes here ===== -->
+
+  <!-- ===== MEMBER 4: visit goes here ===== -->
+
+</main>
+
+<!-- ===== MEMBER 4: footer goes here ===== -->
+
+<script type="py" src="py/main.py" config="pyscript.toml"></script>
+</body>
+</html>
