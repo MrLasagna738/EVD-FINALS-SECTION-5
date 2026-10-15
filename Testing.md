@@ -21,4 +21,4 @@ Browser / device: (e.g. Chrome on Windows)
 | 14 | Phone width | Resize the window narrow (or use F12 device mode) | Layout stacks, nothing cut off | Pass |
 
 ## Problems found
-- None
+- FeedBack Stars and Sending Feed is noninteractive - Fix
