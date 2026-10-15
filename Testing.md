@@ -5,8 +5,8 @@ Browser / device: (e.g. Chrome on Windows)
 
 | # | What was tested | How | Expected | Result |
 |---|-----------------|-----|----------|--------|
-| 1 | Menu category filter | Click each chip (e.g. Hot, Iced, Pastries) | Only that category shows | Pass / Fail |
-| 2 | Menu search | Type "latte" in the search box | Cards filter live as you type | Pass / Fail |
+| 1 | Menu category filter | Click each chip (e.g. Hot, Iced, Pastries) | Only that category shows | Pass |
+| 2 | Menu search | Type "latte" in the search box | Cards filter live as you type | Pass |
 | 3 | Add to order | Click "Add to order" on an item | Item appears in the cart | Pass / Fail |
 | 4 | Quantity buttons | Press + and - in the cart | Quantity and total change; item removed at 0 | Pass / Fail |
 | 5 | First-order discount | Tick "This is my first order" | 10% discount shown, total drops | Pass / Fail |
