@@ -1,0 +1,23 @@
+/* Member 2 - cart: order section layout, cart lines, totals */
+
+/* order */
+.order { border-top: 2px dashed var(--tan); }
+.order-wrap { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2rem; align-items: start; }
+.cart-line { display: flex; align-items: center; gap: .75rem; padding: .6rem 0; border-bottom: 1px solid var(--cream-deep); }
+.cart-line .name { flex: 1; }
+.qty { display: flex; align-items: center; gap: .4rem; }
+.qty button {
+  width: 2rem; height: 2rem; font: inherit; cursor: pointer;
+  border: 2px solid var(--bark); border-radius: 50%; background: transparent; color: var(--bark);
+}
+.qty button:hover { background: var(--bark); color: var(--cream); }
+.totals { margin: 1rem 0 0; }
+.totals div { display: flex; justify-content: space-between; padding: .2rem 0; }
+.totals dt, .totals dd { margin: 0; }
+.totals .grand { border-top: 2px solid var(--wood); margin-top: .4rem; padding-top: .5rem; font-weight: 500; font-size: 1.3rem; }
+
+@keyframes bump { 50% { transform: scale(1.35); } }
+.cart-link span.bump { animation: bump .35s ease; }
+
+@media (max-width: 760px) { .order-wrap { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .cart-link span.bump { animation: none; } }
