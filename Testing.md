@@ -12,8 +12,8 @@ Browser / device: (e.g. Chrome on Windows)
 | 5 | First-order discount | Tick "This is my first order" | 10% discount shown, total drops | Pass |
 | 6 | Place order (empty cart) | Click Place order with no items | Red "order is empty" message | Pass |
 | 7 | Place order (no name) | Add item, leave name blank, submit | Red "enter your name" message | Pass |
-| 8 | Place order (valid) | Add item, enter name, submit | Green message with DB-001, cart clears | Pass / Fail |
-| 9 | Star rating | Click 1 to 5 stars | Stars fill, label shows rating | Pass / Fail |
+| 8 | Place order (valid) | Add item, enter name, submit | Green message with DB-001, cart clears | Pass |
+| 9 | Star rating | Click 1 to 5 stars | Stars fill, label shows rating | Fail |
 | 10 | Comment counter | Type in the comment box | Counter updates, turns red near 200 | Pass / Fail |
 | 11 | Feedback (no rating) | Submit without stars | Red "choose a star rating" message | Pass / Fail |
 | 12 | Feedback (valid) | Pick stars, submit | Thank-you message, form resets | Pass / Fail |
