@@ -10,8 +10,8 @@ Browser / device: (e.g. Chrome on Windows)
 | 3 | Add to order | Click "Add to order" on an item | Item appears in the cart | Pass |
 | 4 | Quantity buttons | Press + and - in the cart | Quantity and total change; item removed at 0 | Pass |
 | 5 | First-order discount | Tick "This is my first order" | 10% discount shown, total drops | Pass |
-| 6 | Place order (empty cart) | Click Place order with no items | Red "order is empty" message | Pass / Fail |
-| 7 | Place order (no name) | Add item, leave name blank, submit | Red "enter your name" message | Pass / Fail |
+| 6 | Place order (empty cart) | Click Place order with no items | Red "order is empty" message | Pass |
+| 7 | Place order (no name) | Add item, leave name blank, submit | Red "enter your name" message | Pass |
 | 8 | Place order (valid) | Add item, enter name, submit | Green message with DB-001, cart clears | Pass / Fail |
 | 9 | Star rating | Click 1 to 5 stars | Stars fill, label shows rating | Pass / Fail |
 | 10 | Comment counter | Type in the comment box | Counter updates, turns red near 200 | Pass / Fail |
