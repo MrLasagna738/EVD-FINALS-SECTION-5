@@ -65,5 +65,37 @@ def render_cart():
             )
         box.innerHTML = "".join(lines)
     update_totals()
+
+
+def compute_totals():
+    subtotal = sum(unit_price(k) * q for k, q in cart.items())
+    first = document.querySelector("#first-order").checked
+    discount = round(subtotal * FIRST_ORDER_RATE, 2) if first else 0
+    return subtotal, discount, subtotal - discount
+
+
+def update_totals():
+    subtotal, discount, total = compute_totals()
+    document.querySelector("#subtotal").textContent = peso(subtotal)
+    document.querySelector("#discount").textContent = "-" + peso(discount) if discount else peso(0)
+    document.querySelector("#total").textContent = peso(total)
+    document.querySelector("#cart-count").textContent = str(sum(cart.values()))
+
+
+@when("click", "#cart-items")
+def on_cart_click(event):
+    btn = event.target.closest("button")
+    if btn is None:
+        return
+    key = btn.getAttribute("data-key")
+    if btn.getAttribute("data-act") == "plus":
+        cart[key] += 1
+    else:
+        cart[key] -= 1
+        if cart[key] <= 0:
+            del cart[key]
+    render_cart()
+
+
 def init():
     render_cart()
