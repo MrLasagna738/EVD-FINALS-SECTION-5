@@ -1,3 +1,18 @@
+<h1 align="center">☕ Daily Brew</h1>
+
+<p align="center"><em>A taste of the highlands</em></p>
+
+<p align="center">
+  <img src="assets/4Drinksnew.jpg" alt="Four illustrated Daily Brew drinks: iced americano, iced caramel latte, mocha with whipped cream, and cappuccino" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PyScript-2024.11.1-orange" alt="PyScript">
+  <img src="https://img.shields.io/badge/Python-3-blue" alt="Python">
+  <img src="https://img.shields.io/badge/HTML-5-red" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-3-purple" alt="CSS">
+</p>
+
 # Daily Brew
 
 Business website for **Daily Brew**, a coffee shop above Cebu City (Tops Lookout, Busay).
