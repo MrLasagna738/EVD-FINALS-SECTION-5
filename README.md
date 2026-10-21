@@ -7,28 +7,64 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyScript-2024.11.1-orange" alt="PyScript">
-  <img src="https://img.shields.io/badge/Python-3-blue" alt="Python">
-  <img src="https://img.shields.io/badge/HTML-5-red" alt="HTML">
-  <img src="https://img.shields.io/badge/CSS-3-purple" alt="CSS">
+  <img src="https://img.shields.io/badge/PyScript-2024.11.1-orange?style=for-the-badge" alt="PyScript">
+  <img src="https://img.shields.io/badge/Python-3-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/HTML-5-red?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-3-purple?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
 </p>
 
-# Daily Brew
+<p align="center">
+  <a href="https://mrlasagna738.github.io/EVD-FINALS-SECTION-5/"><b>🌐 Live Demo</b></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/MrLasagna738/EVD-FINALS-SECTION-5/releases/download/v1.0/EVD.PRESENTATION.mp4"><b>🎬 Presentation Video</b></a>
+  &nbsp;•&nbsp;
+  <a href="#-meet-the-team"><b>👥 Team</b></a>
+</p>
 
-Business website for **Daily Brew**, a coffee shop above Cebu City (Tops Lookout, Busay).
-Final project for Event-Driven Programming, built with **PyScript** (Python running in the browser).
+---
 
-## Features (all driven by events)
+## ✨ About
+
+**Daily Brew** is a coffee shop perched above the clouds of Cebu City (Tops Lookout, Busay).
+Browse the menu, build your order, and rate your visit, all powered by **Python running right in your browser** with **PyScript**.
+
+This is our final project for **Event-Driven Programming**. Every feature on the page reacts to something the user does.
+
+## 🎬 Watch the Presentation
+
+Our full video presentation (introduction, business process, website demo, code explanation, and individual contributions) is available as a release download:
+
+**[⬇️ Download EVD.PRESENTATION.mp4 (1.17 GB)](https://github.com/MrLasagna738/EVD-FINALS-SECTION-5/releases/download/v1.0/EVD.PRESENTATION.mp4)**
+
+> 💡 GitHub can't play files this large in the browser, so the video downloads when you click the link. You can also see it on the [release page](https://github.com/MrLasagna738/EVD-FINALS-SECTION-5/releases/tag/v1.0).
+
+## ⚡ Features (all driven by events)
 
 | Event | What happens |
 |-------|--------------|
-| `click` | Menu category chips, "Add to order", quantity + / -, star rating |
-| `input` | Live menu search, live comment character counter |
-| `change` | First-order checkbox recalculates the total |
-| `submit` | Place order and send feedback, both with validation |
-| timer | Open / closed status refreshes every minute |
+| 🖱️ `click` | Menu category chips, "Add to order", quantity + / -, star rating |
+| ⌨️ `input` | Live menu search, live comment character counter |
+| 🔄 `change` | First-order checkbox recalculates the total |
+| 📨 `submit` | Place order and send feedback, both with validation |
+| ⏰ timer | Open / closed status refreshes every minute |
 
-## Project structure
+## 🚀 Try It Online
+
+No setup needed. Just click the link:
+
+### 👉 **https://mrlasagna738.github.io/EVD-FINALS-SECTION-5/**
+
+## 🛠️ Run It Locally
+
+PyScript needs a web server (opening the file directly will not work).
+
+```bash
+python -m http.server 8000
+```
+
+Then open http://localhost:8000
+
+## 🗂️ Project Structure
 
 ```
 index.html        page layout (each section is marked with its owner)
@@ -45,28 +81,16 @@ css/              one stylesheet per part (base, menu, cart, order, home, feedba
 assets/           photos, hero illustration, Ad video
 ```
 
-## Team
+## 👥 Meet the Team
 
-| Member | Name | Part |
-|--------|------|------|
-| 1 (lead) | Simone Kristopher Baguio | Project setup, `data.py`, `menu.py`, `main.py`, menu section, top bar, base + menu CSS |
-| 2 | John Michael Nuñal | `cart.py`, cart section, Ad video Editor, `cart.css` |
-| 3 | Precious Shiloh Antig | `order.py`, order form, promo banner, `order.css` |
-| 4 | Alexa Mae Paras | `status.py`, hero, story, visit, Ad video, footer, `home.css` |
-| 5 | Aizel Clark Cañete | `feedback.py`, feedback section, `feedback.css`, testing |
+| # | Member | Part |
+|---|--------|------|
+| 1 👑 (lead) | **Simone Kristopher Baguio** | Project setup, `data.py`, `menu.py`, `main.py`, menu section, top bar, base + menu CSS |
+| 2 | **John Michael Nuñal** | `cart.py`, cart section, Ad video Editor, `cart.css` |
+| 3 | **Precious Shiloh Antig** | `order.py`, order form, promo banner, `order.css` |
+| 4 | **Alexa Mae Paras** | `status.py`, hero, story, visit, Ad video, footer, `home.css` |
+| 5 | **Aizel Clark Cañete** | `feedback.py`, feedback section, `feedback.css`, testing |
 
-## Try it online
+---
 
-No setup needed. Just click the link:
-
-**https://mrlasagna738.github.io/EVD-FINALS-SECTION-5/**
-
-## Run it locally
-
-PyScript needs a web server (opening the file directly will not work).
-
-```
-python -m http.server 8000
-```
-
-Then open http://localhost:8000
+<p align="center">Made with ☕ and Python in Cebu City</p>
