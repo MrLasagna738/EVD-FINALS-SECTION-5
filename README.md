@@ -42,19 +42,19 @@ Our full video presentation (introduction, business process, website demo, code 
 
 | Event | What happens |
 |-------|--------------|
-| 🖱️ `click` | Menu category chips, "Add to order", quantity + / -, star rating |
-| ⌨️ `input` | Live menu search, live comment character counter |
-| 🔄 `change` | First-order checkbox recalculates the total |
-| 📨 `submit` | Place order and send feedback, both with validation |
-| ⏰ timer | Open / closed status refreshes every minute |
+| `click` | Menu category chips, "Add to order", quantity + / -, star rating |
+| `input` | Live menu search, live comment character counter |
+| `change` | First-order checkbox recalculates the total |
+| `submit` | Place order and send feedback, both with validation |
+| `timer` | Open / closed status refreshes every minute |
 
-## 🚀 Try It Online
+## Try It Online
 
 No setup needed. Just click the link:
 
 ### 👉 **https://mrlasagna738.github.io/EVD-FINALS-SECTION-5/**
 
-## 🛠️ Run It Locally
+## Run It Locally
 
 PyScript needs a web server (opening the file directly will not work).
 
@@ -85,7 +85,7 @@ assets/           photos, hero illustration, Ad video
 
 | # | Member | Part |
 |---|--------|------|
-| 1 👑 (lead) | **Simone Kristopher Baguio** | Project setup, `data.py`, `menu.py`, `main.py`, menu section, top bar, base + menu CSS |
+| 1 (lead) | **Simone Kristopher Baguio** | Project setup, `data.py`, `menu.py`, `main.py`, menu section, top bar, base + menu CSS |
 | 2 | **John Michael Nuñal** | `cart.py`, cart section, Ad video Editor, `cart.css` |
 | 3 | **Precious Shiloh Antig** | `order.py`, order form, promo banner, `order.css` |
 | 4 | **Alexa Mae Paras** | `status.py`, hero, story, visit, Ad video, footer, `home.css` |
