@@ -23,14 +23,14 @@
 
 ---
 
-## ✨ About
+## About
 
 **Daily Brew** is a coffee shop perched above the clouds of Cebu City (Tops Lookout, Busay).
 Browse the menu, build your order, and rate your visit, all powered by **Python running right in your browser** with **PyScript**.
 
 This is our final project for **Event-Driven Programming**. Every feature on the page reacts to something the user does.
 
-## 🎬 Watch the Presentation
+## Watch the Presentation
 
 Our full video presentation (introduction, business process, website demo, code explanation, and individual contributions) is available as a release download:
 
@@ -38,7 +38,7 @@ Our full video presentation (introduction, business process, website demo, code 
 
 > 💡 GitHub can't play files this large in the browser, so the video downloads when you click the link. You can also see it on the [release page](https://github.com/MrLasagna738/EVD-FINALS-SECTION-5/releases/tag/v1.0).
 
-## ⚡ Features (all driven by events)
+## Features (all driven by events)
 
 | Event | What happens |
 |-------|--------------|
@@ -64,7 +64,7 @@ python -m http.server 8000
 
 Then open http://localhost:8000
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 index.html        page layout (each section is marked with its owner)
@@ -81,7 +81,7 @@ css/              one stylesheet per part (base, menu, cart, order, home, feedba
 assets/           photos, hero illustration, Ad video
 ```
 
-## 👥 Meet the Team
+## Meet the Team
 
 | # | Member | Part |
 |---|--------|------|
